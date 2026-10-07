@@ -1,0 +1,3401 @@
+{
+ "season": "2026-27 English Premier League",
+ "generated_at": "2026-10-07T19:51:26-04:00",
+ "sources": {
+  "standings": {
+   "url": "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings",
+   "file": "data/raw/standings.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 68780,
+   "sha256": "33e711c0b1844cca05c201662a1a4085427f64876c3bea550c29b1718dd2b009",
+   "fetched_at": "2026-10-07T19:47:58-04:00"
+  },
+  "standings_2025": {
+   "url": "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings?season=2025",
+   "file": "data/raw/standings_2025.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 69454,
+   "sha256": "b537238500b66cc65e3eae7e57ed9502c4ac7f1572b226afa0142e5723356fa3",
+   "fetched_at": "2026-10-07T19:47:58-04:00"
+  },
+  "pl_results": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule",
+   "file": "data/raw/pl_results.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 47230,
+   "sha256": "abd5a3340a69ce8194d62750df2e40bda5f22f5d5113a7379208cec3a6139784",
+   "fetched_at": "2026-10-07T19:47:58-04:00"
+  },
+  "pl_fixtures": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule?fixture=true",
+   "file": "data/raw/pl_fixtures.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 276028,
+   "sha256": "d56edf07f82c20c674158603e63d9f0aa67142cf460fe1da1a9577e4e8636f49",
+   "fetched_at": "2026-10-07T19:47:59-04:00"
+  },
+  "all_results": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/363/schedule",
+   "file": "data/raw/all_results.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 95404,
+   "sha256": "17886cd367726b9d2105dbf74cbb1f4cb647eab36f634a0e1f0d7ea4d3e4c42b",
+   "fetched_at": "2026-10-07T19:47:59-04:00"
+  },
+  "all_fixtures": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/363/schedule?fixture=true",
+   "file": "data/raw/all_fixtures.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 288787,
+   "sha256": "96f26fe73ad92635ca78a04ba613d3d1ecdf389db0f28b346b3b157007ef4b0a",
+   "fetched_at": "2026-10-07T19:47:59-04:00"
+  },
+  "scoreboard_2026": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=2026&limit=1000",
+   "file": "data/raw/scoreboard_2026.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 3705336,
+   "sha256": "8cda21814a92a7494b8850ce02876820bbd57156f3c810963457496267154448",
+   "fetched_at": "2026-10-07T19:47:59-04:00"
+  },
+  "scoreboard_2025": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=2025&limit=1000",
+   "file": "data/raw/scoreboard_2025.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 4049730,
+   "sha256": "97a86f7124f236c0c344cf35e1b5a49f27b33f885d71a80824cdb8e037ed63ac",
+   "fetched_at": "2026-10-07T19:48:01-04:00"
+  },
+  "team": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363",
+   "file": "data/raw/team.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 21047,
+   "sha256": "f7804e31f52ae2a7b54f1e13aefb52df48f7a20696d30d88cbd6582cdb1a72cc",
+   "fetched_at": "2026-10-07T19:48:01-04:00"
+  },
+  "summary_401879275": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879275",
+   "file": "data/raw/summary_401879275.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 411389,
+   "sha256": "580617ac5999714e3174d874fed35ca8fa405ae83f549a9b5fd4fa5627d27535",
+   "fetched_at": "2026-10-07T19:48:01-04:00"
+  },
+  "summary_401879283": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879283",
+   "file": "data/raw/summary_401879283.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 433271,
+   "sha256": "b78f2748a10a09713f2226a9f1f7b4adb7937e96c7e62cd389d8f97c45ab7533",
+   "fetched_at": "2026-10-07T19:48:02-04:00"
+  },
+  "summary_401914256": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/summary?event=401914256",
+   "file": "data/raw/summary_401914256.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 376100,
+   "sha256": "a82a8e17c8114d7b8c0047e56e4e6cec45dbfa000f6e1fb322519638dc796fbf",
+   "fetched_at": "2026-10-07T19:48:02-04:00"
+  },
+  "summary_401879292": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879292",
+   "file": "data/raw/summary_401879292.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 451639,
+   "sha256": "7ec1ce473c4fecf8531d057a300ae36ec6e1e480e64ed6cff0250a40360d16a1",
+   "fetched_at": "2026-10-07T19:48:02-04:00"
+  },
+  "summary_401879317": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879317",
+   "file": "data/raw/summary_401879317.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 442628,
+   "sha256": "30f71e62c1d29ee17a5cbeaeaecbb1ba8d6d7b6ac48af585cec319a7246da249",
+   "fetched_at": "2026-10-07T19:48:03-04:00"
+  },
+  "summary_401908127": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/summary?event=401908127",
+   "file": "data/raw/summary_401908127.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 366212,
+   "sha256": "b813659389584c965c038995284e3430e14837db267d6089c9cb11f0d9a79b9f",
+   "fetched_at": "2026-10-07T19:48:03-04:00"
+  },
+  "summary_401879318": {
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879318",
+   "file": "data/raw/summary_401879318.json",
+   "http": "200",
+   "ok": true,
+   "bytes": 417082,
+   "sha256": "dcfe1d2dede4811f5034a41cfce36b33a8e1de8a30ebd5d44409fe0d91370d2f",
+   "fetched_at": "2026-10-07T19:48:03-04:00"
+  }
+ },
+ "logos": {
+  "103": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/103.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:21-04:00"
+  },
+  "111": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/111.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:21-04:00"
+  },
+  "17689": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/17689.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:22-04:00"
+  },
+  "301": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/301.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:22-04:00"
+  },
+  "306": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/306.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:22-04:00"
+  },
+  "331": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/331.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:23-04:00"
+  },
+  "337": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/337.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:23-04:00"
+  },
+  "349": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/349.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:23-04:00"
+  },
+  "357": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/357.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:23-04:00"
+  },
+  "359": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/359.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:24-04:00"
+  },
+  "360": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/360.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:24-04:00"
+  },
+  "361": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/361.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:24-04:00"
+  },
+  "362": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/362.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:24-04:00"
+  },
+  "363": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/363.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:25-04:00"
+  },
+  "364": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/364.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:25-04:00"
+  },
+  "366": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/366.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:25-04:00"
+  },
+  "367": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/367.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:25-04:00"
+  },
+  "368": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/368.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:26-04:00"
+  },
+  "370": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/370.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:26-04:00"
+  },
+  "373": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/373.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:26-04:00"
+  },
+  "382": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/382.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:26-04:00"
+  },
+  "384": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/384.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:27-04:00"
+  },
+  "388": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/388.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:27-04:00"
+  },
+  "393": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/393.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:27-04:00"
+  },
+  "89": {
+   "url": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/89.png&h=96&w=96",
+   "ok": true,
+   "fetched_at": "2026-10-07T19:48:27-04:00"
+  }
+ },
+ "table": [
+  {
+   "rank": 1,
+   "id": "382",
+   "name": "Manchester City",
+   "short": "Man City",
+   "abbr": "MNC",
+   "gp": 5,
+   "w": 5,
+   "d": 0,
+   "l": 0,
+   "gf": 13,
+   "ga": 5,
+   "gd": 8,
+   "pts": 15,
+   "note": "Champions League",
+   "color": "#81D6AC"
+  },
+  {
+   "rank": 2,
+   "id": "359",
+   "name": "Arsenal",
+   "short": "Arsenal",
+   "abbr": "ARS",
+   "gp": 5,
+   "w": 4,
+   "d": 0,
+   "l": 1,
+   "gf": 8,
+   "ga": 4,
+   "gd": 4,
+   "pts": 12,
+   "note": "Champions League",
+   "color": "#81D6AC"
+  },
+  {
+   "rank": 3,
+   "id": "331",
+   "name": "Brighton & Hove Albion",
+   "short": "Brighton",
+   "abbr": "BHA",
+   "gp": 5,
+   "w": 3,
+   "d": 1,
+   "l": 1,
+   "gf": 16,
+   "ga": 5,
+   "gd": 11,
+   "pts": 10,
+   "note": "Champions League",
+   "color": "#81D6AC"
+  },
+  {
+   "rank": 4,
+   "id": "337",
+   "name": "Brentford",
+   "short": "Brentford",
+   "abbr": "BRE",
+   "gp": 5,
+   "w": 2,
+   "d": 3,
+   "l": 0,
+   "gf": 10,
+   "ga": 4,
+   "gd": 6,
+   "pts": 9,
+   "note": "Champions League",
+   "color": "#81D6AC"
+  },
+  {
+   "rank": 5,
+   "id": "357",
+   "name": "Leeds United",
+   "short": "Leeds",
+   "abbr": "LEE",
+   "gp": 5,
+   "w": 2,
+   "d": 3,
+   "l": 0,
+   "gf": 7,
+   "ga": 3,
+   "gd": 4,
+   "pts": 9,
+   "note": "Europa League",
+   "color": "##B5E7CE"
+  },
+  {
+   "rank": 6,
+   "id": "364",
+   "name": "Liverpool",
+   "short": "Liverpool",
+   "abbr": "LIV",
+   "gp": 5,
+   "w": 2,
+   "d": 3,
+   "l": 0,
+   "gf": 7,
+   "ga": 4,
+   "gd": 3,
+   "pts": 9,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 7,
+   "id": "368",
+   "name": "Everton",
+   "short": "Everton",
+   "abbr": "EVE",
+   "gp": 5,
+   "w": 2,
+   "d": 3,
+   "l": 0,
+   "gf": 6,
+   "ga": 3,
+   "gd": 3,
+   "pts": 9,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 8,
+   "id": "306",
+   "name": "Hull City",
+   "short": "Hull",
+   "abbr": "HUL",
+   "gp": 5,
+   "w": 2,
+   "d": 2,
+   "l": 1,
+   "gf": 6,
+   "ga": 4,
+   "gd": 2,
+   "pts": 8,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 9,
+   "id": "361",
+   "name": "Newcastle United",
+   "short": "Newcastle",
+   "abbr": "NEW",
+   "gp": 5,
+   "w": 2,
+   "d": 2,
+   "l": 1,
+   "gf": 9,
+   "ga": 9,
+   "gd": 0,
+   "pts": 8,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 10,
+   "id": "363",
+   "name": "Chelsea",
+   "short": "Chelsea",
+   "abbr": "CHE",
+   "gp": 5,
+   "w": 2,
+   "d": 1,
+   "l": 2,
+   "gf": 10,
+   "ga": 12,
+   "gd": -2,
+   "pts": 7,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 11,
+   "id": "373",
+   "name": "Ipswich Town",
+   "short": "Ipswich",
+   "abbr": "IPS",
+   "gp": 5,
+   "w": 2,
+   "d": 0,
+   "l": 3,
+   "gf": 7,
+   "ga": 11,
+   "gd": -4,
+   "pts": 6,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 12,
+   "id": "360",
+   "name": "Manchester United",
+   "short": "Man United",
+   "abbr": "MAN",
+   "gp": 5,
+   "w": 1,
+   "d": 2,
+   "l": 2,
+   "gf": 8,
+   "ga": 8,
+   "gd": 0,
+   "pts": 5,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 13,
+   "id": "393",
+   "name": "Nottingham Forest",
+   "short": "Nottm Forest",
+   "abbr": "NFO",
+   "gp": 5,
+   "w": 1,
+   "d": 2,
+   "l": 2,
+   "gf": 4,
+   "ga": 5,
+   "gd": -1,
+   "pts": 5,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 14,
+   "id": "366",
+   "name": "Sunderland",
+   "short": "Sunderland",
+   "abbr": "SUN",
+   "gp": 5,
+   "w": 1,
+   "d": 1,
+   "l": 3,
+   "gf": 6,
+   "ga": 10,
+   "gd": -4,
+   "pts": 4,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 15,
+   "id": "384",
+   "name": "Crystal Palace",
+   "short": "C Palace",
+   "abbr": "CRY",
+   "gp": 5,
+   "w": 1,
+   "d": 1,
+   "l": 3,
+   "gf": 6,
+   "ga": 11,
+   "gd": -5,
+   "pts": 4,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 16,
+   "id": "362",
+   "name": "Aston Villa",
+   "short": "Aston Villa",
+   "abbr": "AVL",
+   "gp": 5,
+   "w": 1,
+   "d": 1,
+   "l": 3,
+   "gf": 4,
+   "ga": 9,
+   "gd": -5,
+   "pts": 4,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 17,
+   "id": "349",
+   "name": "AFC Bournemouth",
+   "short": "Bournemouth",
+   "abbr": "BOU",
+   "gp": 5,
+   "w": 0,
+   "d": 3,
+   "l": 2,
+   "gf": 6,
+   "ga": 8,
+   "gd": -2,
+   "pts": 3,
+   "note": null,
+   "color": null
+  },
+  {
+   "rank": 18,
+   "id": "388",
+   "name": "Coventry City",
+   "short": "Coventry",
+   "abbr": "COV",
+   "gp": 5,
+   "w": 1,
+   "d": 0,
+   "l": 4,
+   "gf": 1,
+   "ga": 10,
+   "gd": -9,
+   "pts": 3,
+   "note": "Relegation",
+   "color": "#FF7F84"
+  },
+  {
+   "rank": 19,
+   "id": "370",
+   "name": "Fulham",
+   "short": "Fulham",
+   "abbr": "FUL",
+   "gp": 5,
+   "w": 0,
+   "d": 2,
+   "l": 3,
+   "gf": 5,
+   "ga": 8,
+   "gd": -3,
+   "pts": 2,
+   "note": "Relegation",
+   "color": "#FF7F84"
+  },
+  {
+   "rank": 20,
+   "id": "367",
+   "name": "Tottenham Hotspur",
+   "short": "Spurs",
+   "abbr": "TOT",
+   "gp": 5,
+   "w": 0,
+   "d": 2,
+   "l": 3,
+   "gf": 2,
+   "ga": 8,
+   "gd": -6,
+   "pts": 2,
+   "note": "Relegation",
+   "color": "#FF7F84"
+  }
+ ],
+ "chelsea": {
+  "rank": 10,
+  "id": "363",
+  "name": "Chelsea",
+  "short": "Chelsea",
+  "abbr": "CHE",
+  "gp": 5,
+  "w": 2,
+  "d": 1,
+  "l": 2,
+  "gf": 10,
+  "ga": 12,
+  "gd": -2,
+  "pts": 7,
+  "note": null,
+  "color": null
+ },
+ "rounds_aligned": true,
+ "matches_in_season": 38,
+ "rounds": [
+  {
+   "331": {
+    "rank": 1,
+    "pts": 3,
+    "gd": 4
+   },
+   "359": {
+    "rank": 2,
+    "pts": 3,
+    "gd": 3
+   },
+   "337": {
+    "rank": 3,
+    "pts": 3,
+    "gd": 3
+   },
+   "368": {
+    "rank": 4,
+    "pts": 3,
+    "gd": 2
+   },
+   "306": {
+    "rank": 5,
+    "pts": 3,
+    "gd": 2
+   },
+   "363": {
+    "rank": 6,
+    "pts": 3,
+    "gd": 1
+   },
+   "373": {
+    "rank": 7,
+    "pts": 3,
+    "gd": 1
+   },
+   "382": {
+    "rank": 8,
+    "pts": 3,
+    "gd": 1
+   },
+   "357": {
+    "rank": 9,
+    "pts": 3,
+    "gd": 1
+   },
+   "364": {
+    "rank": 10,
+    "pts": 1,
+    "gd": 0
+   },
+   "361": {
+    "rank": 11,
+    "pts": 1,
+    "gd": 0
+   },
+   "370": {
+    "rank": 12,
+    "pts": 0,
+    "gd": -1
+   },
+   "349": {
+    "rank": 13,
+    "pts": 0,
+    "gd": -1
+   },
+   "366": {
+    "rank": 14,
+    "pts": 0,
+    "gd": -1
+   },
+   "393": {
+    "rank": 15,
+    "pts": 0,
+    "gd": -1
+   },
+   "384": {
+    "rank": 16,
+    "pts": 0,
+    "gd": -2
+   },
+   "360": {
+    "rank": 17,
+    "pts": 0,
+    "gd": -2
+   },
+   "388": {
+    "rank": 18,
+    "pts": 0,
+    "gd": -3
+   },
+   "367": {
+    "rank": 19,
+    "pts": 0,
+    "gd": -3
+   },
+   "362": {
+    "rank": 20,
+    "pts": 0,
+    "gd": -4
+   }
+  },
+  {
+   "382": {
+    "rank": 1,
+    "pts": 6,
+    "gd": 4
+   },
+   "359": {
+    "rank": 2,
+    "pts": 6,
+    "gd": 4
+   },
+   "306": {
+    "rank": 3,
+    "pts": 6,
+    "gd": 3
+   },
+   "363": {
+    "rank": 4,
+    "pts": 6,
+    "gd": 2
+   },
+   "337": {
+    "rank": 5,
+    "pts": 4,
+    "gd": 3
+   },
+   "361": {
+    "rank": 6,
+    "pts": 4,
+    "gd": 2
+   },
+   "368": {
+    "rank": 7,
+    "pts": 4,
+    "gd": 2
+   },
+   "357": {
+    "rank": 8,
+    "pts": 4,
+    "gd": 1
+   },
+   "331": {
+    "rank": 9,
+    "pts": 3,
+    "gd": 3
+   },
+   "360": {
+    "rank": 10,
+    "pts": 3,
+    "gd": 1
+   },
+   "366": {
+    "rank": 11,
+    "pts": 3,
+    "gd": 0
+   },
+   "373": {
+    "rank": 12,
+    "pts": 3,
+    "gd": -2
+   },
+   "364": {
+    "rank": 13,
+    "pts": 2,
+    "gd": 0
+   },
+   "349": {
+    "rank": 14,
+    "pts": 1,
+    "gd": -1
+   },
+   "393": {
+    "rank": 15,
+    "pts": 1,
+    "gd": -1
+   },
+   "370": {
+    "rank": 16,
+    "pts": 0,
+    "gd": -2
+   },
+   "388": {
+    "rank": 17,
+    "pts": 0,
+    "gd": -4
+   },
+   "384": {
+    "rank": 18,
+    "pts": 0,
+    "gd": -5
+   },
+   "362": {
+    "rank": 19,
+    "pts": 0,
+    "gd": -5
+   },
+   "367": {
+    "rank": 20,
+    "pts": 0,
+    "gd": -5
+   }
+  },
+  {
+   "382": {
+    "rank": 1,
+    "pts": 9,
+    "gd": 5
+   },
+   "359": {
+    "rank": 2,
+    "pts": 9,
+    "gd": 5
+   },
+   "306": {
+    "rank": 3,
+    "pts": 7,
+    "gd": 3
+   },
+   "363": {
+    "rank": 4,
+    "pts": 6,
+    "gd": 1
+   },
+   "337": {
+    "rank": 5,
+    "pts": 5,
+    "gd": 3
+   },
+   "364": {
+    "rank": 6,
+    "pts": 5,
+    "gd": 2
+   },
+   "361": {
+    "rank": 7,
+    "pts": 5,
+    "gd": 2
+   },
+   "368": {
+    "rank": 8,
+    "pts": 5,
+    "gd": 2
+   },
+   "357": {
+    "rank": 9,
+    "pts": 5,
+    "gd": 1
+   },
+   "331": {
+    "rank": 10,
+    "pts": 4,
+    "gd": 3
+   },
+   "360": {
+    "rank": 11,
+    "pts": 4,
+    "gd": 1
+   },
+   "366": {
+    "rank": 12,
+    "pts": 4,
+    "gd": 0
+   },
+   "384": {
+    "rank": 13,
+    "pts": 3,
+    "gd": -4
+   },
+   "373": {
+    "rank": 14,
+    "pts": 3,
+    "gd": -4
+   },
+   "349": {
+    "rank": 15,
+    "pts": 2,
+    "gd": -1
+   },
+   "393": {
+    "rank": 16,
+    "pts": 2,
+    "gd": -1
+   },
+   "362": {
+    "rank": 17,
+    "pts": 1,
+    "gd": -5
+   },
+   "367": {
+    "rank": 18,
+    "pts": 1,
+    "gd": -5
+   },
+   "370": {
+    "rank": 19,
+    "pts": 0,
+    "gd": -3
+   },
+   "388": {
+    "rank": 20,
+    "pts": 0,
+    "gd": -5
+   }
+  },
+  {
+   "359": {
+    "rank": 1,
+    "pts": 12,
+    "gd": 7
+   },
+   "382": {
+    "rank": 2,
+    "pts": 12,
+    "gd": 6
+   },
+   "357": {
+    "rank": 3,
+    "pts": 8,
+    "gd": 4
+   },
+   "306": {
+    "rank": 4,
+    "pts": 8,
+    "gd": 3
+   },
+   "331": {
+    "rank": 5,
+    "pts": 7,
+    "gd": 8
+   },
+   "363": {
+    "rank": 6,
+    "pts": 7,
+    "gd": 1
+   },
+   "337": {
+    "rank": 7,
+    "pts": 6,
+    "gd": 3
+   },
+   "364": {
+    "rank": 8,
+    "pts": 6,
+    "gd": 2
+   },
+   "368": {
+    "rank": 9,
+    "pts": 6,
+    "gd": 2
+   },
+   "373": {
+    "rank": 10,
+    "pts": 6,
+    "gd": -3
+   },
+   "393": {
+    "rank": 11,
+    "pts": 5,
+    "gd": 0
+   },
+   "361": {
+    "rank": 12,
+    "pts": 5,
+    "gd": -1
+   },
+   "360": {
+    "rank": 13,
+    "pts": 4,
+    "gd": 0
+   },
+   "366": {
+    "rank": 14,
+    "pts": 4,
+    "gd": -2
+   },
+   "349": {
+    "rank": 15,
+    "pts": 3,
+    "gd": -1
+   },
+   "384": {
+    "rank": 16,
+    "pts": 3,
+    "gd": -5
+   },
+   "367": {
+    "rank": 17,
+    "pts": 2,
+    "gd": -5
+   },
+   "370": {
+    "rank": 18,
+    "pts": 1,
+    "gd": -3
+   },
+   "362": {
+    "rank": 19,
+    "pts": 1,
+    "gd": -6
+   },
+   "388": {
+    "rank": 20,
+    "pts": 0,
+    "gd": -10
+   }
+  },
+  {
+   "382": {
+    "rank": 1,
+    "pts": 15,
+    "gd": 8
+   },
+   "359": {
+    "rank": 2,
+    "pts": 12,
+    "gd": 4
+   },
+   "331": {
+    "rank": 3,
+    "pts": 10,
+    "gd": 11
+   },
+   "337": {
+    "rank": 4,
+    "pts": 9,
+    "gd": 6
+   },
+   "357": {
+    "rank": 5,
+    "pts": 9,
+    "gd": 4
+   },
+   "364": {
+    "rank": 6,
+    "pts": 9,
+    "gd": 3
+   },
+   "368": {
+    "rank": 7,
+    "pts": 9,
+    "gd": 3
+   },
+   "306": {
+    "rank": 8,
+    "pts": 8,
+    "gd": 2
+   },
+   "361": {
+    "rank": 9,
+    "pts": 8,
+    "gd": 0
+   },
+   "363": {
+    "rank": 10,
+    "pts": 7,
+    "gd": -2
+   },
+   "373": {
+    "rank": 11,
+    "pts": 6,
+    "gd": -4
+   },
+   "360": {
+    "rank": 12,
+    "pts": 5,
+    "gd": 0
+   },
+   "393": {
+    "rank": 13,
+    "pts": 5,
+    "gd": -1
+   },
+   "366": {
+    "rank": 14,
+    "pts": 4,
+    "gd": -4
+   },
+   "384": {
+    "rank": 15,
+    "pts": 4,
+    "gd": -5
+   },
+   "362": {
+    "rank": 16,
+    "pts": 4,
+    "gd": -5
+   },
+   "349": {
+    "rank": 17,
+    "pts": 3,
+    "gd": -2
+   },
+   "388": {
+    "rank": 18,
+    "pts": 3,
+    "gd": -9
+   },
+   "370": {
+    "rank": 19,
+    "pts": 2,
+    "gd": -3
+   },
+   "367": {
+    "rank": 20,
+    "pts": 2,
+    "gd": -6
+   }
+  }
+ ],
+ "che_pl": [
+  {
+   "id": "401879318",
+   "home": false,
+   "opp": "370",
+   "opp_name": "Fulham",
+   "gf": 3,
+   "ga": 2,
+   "res": "W",
+   "pts": 3,
+   "iso_et": "2026-08-24T15:00:00-04:00",
+   "date": "Mon Aug 24, 2026",
+   "short": "Mon Aug 24",
+   "time": "3:00 PM ET",
+   "tz": "EDT",
+   "cum_pts": 3,
+   "n": 1,
+   "pos_after": 6,
+   "venue": "Craven Cottage",
+   "tv": [
+    "USA Net",
+    "Universo"
+   ],
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879318/chelsea-fulham",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "1'",
+      "scorer": "João Pedro",
+      "assist": "Cole Palmer",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "370",
+      "min": "23'",
+      "scorer": "Josh King",
+      "assist": "Timothy Castagne",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "41'",
+      "scorer": "Morgan Rogers",
+      "assist": "Maxence Lacroix",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "49'",
+      "scorer": "Cole Palmer",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "370",
+      "min": "54'",
+      "scorer": "Gonzalo García",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": true
+     }
+    ],
+    "reds": [],
+    "box": {
+     "370": {
+      "possessionPct": "61.5",
+      "totalShots": "14",
+      "shotsOnTarget": "6"
+     },
+     "363": {
+      "possessionPct": "38.5",
+      "totalShots": "18",
+      "shotsOnTarget": "6"
+     }
+    },
+    "attendance": 27461,
+    "venue": "Craven Cottage",
+    "score": {
+     "370": 2,
+     "363": 3
+    }
+   }
+  },
+  {
+   "id": "401879317",
+   "home": true,
+   "opp": "331",
+   "opp_name": "Brighton & Hove Albion",
+   "gf": 4,
+   "ga": 3,
+   "res": "W",
+   "pts": 3,
+   "iso_et": "2026-08-30T09:00:00-04:00",
+   "date": "Sun Aug 30, 2026",
+   "short": "Sun Aug 30",
+   "time": "9:00 AM ET",
+   "tz": "EDT",
+   "cum_pts": 6,
+   "n": 2,
+   "pos_after": 4,
+   "venue": "Stamford Bridge",
+   "tv": [
+    "Peacock"
+   ],
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879317/brighton-hove-albion-chelsea",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "4'",
+      "scorer": "Romeo Lavia",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "14'",
+      "scorer": "Pedro Neto",
+      "assist": "Morgan Rogers",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "32'",
+      "scorer": "João Pedro",
+      "assist": "Jorrel Hato",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "35'",
+      "scorer": "Malick Yalcouyé",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "63'",
+      "scorer": "João Pedro",
+      "assist": null,
+      "og": true,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "74'",
+      "scorer": "Cole Palmer",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "90'+6'",
+      "scorer": "Pascal Gross",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": true
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "25.6",
+      "totalShots": "17",
+      "shotsOnTarget": "6"
+     },
+     "331": {
+      "possessionPct": "74.4",
+      "totalShots": "15",
+      "shotsOnTarget": "6"
+     }
+    },
+    "attendance": 0,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 4,
+     "331": 3
+    }
+   }
+  },
+  {
+   "id": "401879292",
+   "home": false,
+   "opp": "359",
+   "opp_name": "Arsenal",
+   "gf": 1,
+   "ga": 2,
+   "res": "L",
+   "pts": 0,
+   "iso_et": "2026-09-06T11:30:00-04:00",
+   "date": "Sun Sep 6, 2026",
+   "short": "Sun Sep 6",
+   "time": "11:30 AM ET",
+   "tz": "EDT",
+   "cum_pts": 6,
+   "n": 3,
+   "pos_after": 4,
+   "venue": "Emirates Stadium",
+   "tv": [
+    "USA Net",
+    "Tele"
+   ],
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879292/chelsea-arsenal",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "2'",
+      "scorer": "Morgan Rogers",
+      "assist": "Jorrel Hato",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "359",
+      "min": "25'",
+      "scorer": "Kai Havertz",
+      "assist": "Declan Rice",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "359",
+      "min": "50'",
+      "scorer": "Martin Ødegaard",
+      "assist": "Christos Tzolis",
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "359": {
+      "possessionPct": "54.6",
+      "totalShots": "16",
+      "shotsOnTarget": "9"
+     },
+     "363": {
+      "possessionPct": "45.4",
+      "totalShots": "13",
+      "shotsOnTarget": "5"
+     }
+    },
+    "attendance": 60240,
+    "venue": "Emirates Stadium",
+    "score": {
+     "359": 2,
+     "363": 1
+    }
+   }
+  },
+  {
+   "id": "401879283",
+   "home": true,
+   "opp": "306",
+   "opp_name": "Hull City",
+   "gf": 2,
+   "ga": 2,
+   "res": "D",
+   "pts": 1,
+   "iso_et": "2026-09-12T10:00:00-04:00",
+   "date": "Sat Sep 12, 2026",
+   "short": "Sat Sep 12",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "cum_pts": 7,
+   "n": 4,
+   "pos_after": 6,
+   "venue": "Stamford Bridge",
+   "tv": [
+    "USA Net",
+    "Universo"
+   ],
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879283/hull-city-chelsea",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "7'",
+      "scorer": "Morgan Rogers",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "306",
+      "min": "28'",
+      "scorer": "Mohamed Belloumi",
+      "assist": "Ryan Giles",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "306",
+      "min": "34'",
+      "scorer": "Mohamed Belloumi",
+      "assist": "Oliver McBurnie",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "66'",
+      "scorer": "João Pedro",
+      "assist": "Cole Palmer",
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "67.8",
+      "totalShots": "12",
+      "shotsOnTarget": "7"
+     },
+     "306": {
+      "possessionPct": "32.2",
+      "totalShots": "13",
+      "shotsOnTarget": "5"
+     }
+    },
+    "attendance": 39352,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 2,
+     "306": 2
+    }
+   }
+  },
+  {
+   "id": "401879275",
+   "home": false,
+   "opp": "337",
+   "opp_name": "Brentford",
+   "gf": 0,
+   "ga": 3,
+   "res": "L",
+   "pts": 0,
+   "iso_et": "2026-09-18T15:00:00-04:00",
+   "date": "Fri Sep 18, 2026",
+   "short": "Fri Sep 18",
+   "time": "3:00 PM ET",
+   "tz": "EDT",
+   "cum_pts": 7,
+   "n": 5,
+   "pos_after": 10,
+   "venue": "Gtech Community Stadium",
+   "tv": [
+    "USA Net"
+   ],
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879275/chelsea-brentford",
+   "summary": {
+    "goals": [
+     {
+      "team": "337",
+      "min": "61'",
+      "scorer": "Jaidon Anthony",
+      "assist": "Jannik Schuster",
+      "og": false,
+      "pen": false,
+      "header": true
+     },
+     {
+      "team": "337",
+      "min": "83'",
+      "scorer": "Igor Thiago",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "337",
+      "min": "90'+4'",
+      "scorer": "Fábio Carvalho",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "337": {
+      "possessionPct": "40.6",
+      "totalShots": "13",
+      "shotsOnTarget": "6"
+     },
+     "363": {
+      "possessionPct": "59.4",
+      "totalShots": "12",
+      "shotsOnTarget": "2"
+     }
+    },
+    "attendance": 17193,
+    "venue": "Gtech Community Stadium",
+    "score": {
+     "337": 3,
+     "363": 0
+    }
+   }
+  }
+ ],
+ "pace_2025": [
+  1,
+  4,
+  7,
+  8,
+  8,
+  8,
+  11,
+  14,
+  14,
+  17,
+  20,
+  23,
+  24,
+  24,
+  25,
+  28,
+  29,
+  29,
+  30,
+  31,
+  31,
+  34,
+  37,
+  40,
+  43,
+  44,
+  45,
+  45,
+  48,
+  48,
+  48,
+  48,
+  48,
+  48,
+  48,
+  49,
+  52,
+  52
+ ],
+ "pace_2025_final": {
+  "pts": 52,
+  "gp": 38
+ },
+ "standings_2025_che": {
+  "gamesPlayed": 38.0,
+  "losses": 14.0,
+  "pointDifferential": 6.0,
+  "points": 52.0,
+  "pointsAgainst": 52.0,
+  "pointsFor": 58.0,
+  "ties": 10.0,
+  "wins": 14.0,
+  "advanced": 0.0,
+  "deductions": 0.0,
+  "ppg": 0.0,
+  "rank": 10.0,
+  "rankChange": 0.0,
+  "overall": null
+ },
+ "leader_pts": [
+  3,
+  6,
+  9,
+  12,
+  15
+ ],
+ "fourth_pts": [
+  3,
+  6,
+  6,
+  8,
+  9
+ ],
+ "competitive": [
+  {
+   "id": "401879318",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "370",
+   "opp_name": "Fulham",
+   "opp_abbr": "FUL",
+   "venue": "Craven Cottage",
+   "city": "London",
+   "tv": [
+    "USA Net",
+    "Universo"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879318/chelsea-fulham",
+   "iso_et": "2026-08-24T15:00:00-04:00",
+   "date": "Mon Aug 24, 2026",
+   "short": "Mon Aug 24",
+   "time": "3:00 PM ET",
+   "tz": "EDT",
+   "gf": 3,
+   "ga": 2,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "1'",
+      "scorer": "João Pedro",
+      "assist": "Cole Palmer",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "370",
+      "min": "23'",
+      "scorer": "Josh King",
+      "assist": "Timothy Castagne",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "41'",
+      "scorer": "Morgan Rogers",
+      "assist": "Maxence Lacroix",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "49'",
+      "scorer": "Cole Palmer",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "370",
+      "min": "54'",
+      "scorer": "Gonzalo García",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": true
+     }
+    ],
+    "reds": [],
+    "box": {
+     "370": {
+      "possessionPct": "61.5",
+      "totalShots": "14",
+      "shotsOnTarget": "6"
+     },
+     "363": {
+      "possessionPct": "38.5",
+      "totalShots": "18",
+      "shotsOnTarget": "6"
+     }
+    },
+    "attendance": 27461,
+    "venue": "Craven Cottage",
+    "score": {
+     "370": 2,
+     "363": 3
+    }
+   },
+   "opp_rank": 19
+  },
+  {
+   "id": "401908127",
+   "comp": "Carabao Cup",
+   "comp_slug": "eng.league_cup",
+   "stage": "Second Round",
+   "home": true,
+   "opp": "301",
+   "opp_name": "Luton Town",
+   "opp_abbr": "LTN",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "Paramount+"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401908127/luton-town-chelsea",
+   "iso_et": "2026-08-27T14:30:00-04:00",
+   "date": "Thu Aug 27, 2026",
+   "short": "Thu Aug 27",
+   "time": "2:30 PM ET",
+   "tz": "EDT",
+   "gf": 2,
+   "ga": 0,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "50'",
+      "scorer": "Danny Welbeck",
+      "assist": "Malo Gusto",
+      "og": false,
+      "pen": false,
+      "header": true
+     },
+     {
+      "team": "363",
+      "min": "79'",
+      "scorer": "Hakeem Odofin",
+      "assist": null,
+      "og": true,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "65.7",
+      "totalShots": "26",
+      "shotsOnTarget": "7"
+     },
+     "301": {
+      "possessionPct": "34.3",
+      "totalShots": "7",
+      "shotsOnTarget": "1"
+     }
+    },
+    "attendance": 32210,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 2,
+     "301": 0
+    }
+   }
+  },
+  {
+   "id": "401879317",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "331",
+   "opp_name": "Brighton & Hove Albion",
+   "opp_abbr": "BHA",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "Peacock"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879317/brighton-hove-albion-chelsea",
+   "iso_et": "2026-08-30T09:00:00-04:00",
+   "date": "Sun Aug 30, 2026",
+   "short": "Sun Aug 30",
+   "time": "9:00 AM ET",
+   "tz": "EDT",
+   "gf": 4,
+   "ga": 3,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "4'",
+      "scorer": "Romeo Lavia",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "14'",
+      "scorer": "Pedro Neto",
+      "assist": "Morgan Rogers",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "32'",
+      "scorer": "João Pedro",
+      "assist": "Jorrel Hato",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "35'",
+      "scorer": "Malick Yalcouyé",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "63'",
+      "scorer": "João Pedro",
+      "assist": null,
+      "og": true,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "74'",
+      "scorer": "Cole Palmer",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "331",
+      "min": "90'+6'",
+      "scorer": "Pascal Gross",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": true
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "25.6",
+      "totalShots": "17",
+      "shotsOnTarget": "6"
+     },
+     "331": {
+      "possessionPct": "74.4",
+      "totalShots": "15",
+      "shotsOnTarget": "6"
+     }
+    },
+    "attendance": 0,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 4,
+     "331": 3
+    }
+   },
+   "opp_rank": 3
+  },
+  {
+   "id": "401879292",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "359",
+   "opp_name": "Arsenal",
+   "opp_abbr": "ARS",
+   "venue": "Emirates Stadium",
+   "city": "London",
+   "tv": [
+    "USA Net",
+    "Tele"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879292/chelsea-arsenal",
+   "iso_et": "2026-09-06T11:30:00-04:00",
+   "date": "Sun Sep 6, 2026",
+   "short": "Sun Sep 6",
+   "time": "11:30 AM ET",
+   "tz": "EDT",
+   "gf": 1,
+   "ga": 2,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "L",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "2'",
+      "scorer": "Morgan Rogers",
+      "assist": "Jorrel Hato",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "359",
+      "min": "25'",
+      "scorer": "Kai Havertz",
+      "assist": "Declan Rice",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "359",
+      "min": "50'",
+      "scorer": "Martin Ødegaard",
+      "assist": "Christos Tzolis",
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "359": {
+      "possessionPct": "54.6",
+      "totalShots": "16",
+      "shotsOnTarget": "9"
+     },
+     "363": {
+      "possessionPct": "45.4",
+      "totalShots": "13",
+      "shotsOnTarget": "5"
+     }
+    },
+    "attendance": 60240,
+    "venue": "Emirates Stadium",
+    "score": {
+     "359": 2,
+     "363": 1
+    }
+   },
+   "opp_rank": 2
+  },
+  {
+   "id": "401914256",
+   "comp": "Carabao Cup",
+   "comp_slug": "eng.league_cup",
+   "stage": "Third Round",
+   "home": true,
+   "opp": "357",
+   "opp_name": "Leeds United",
+   "opp_abbr": "LEE",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "Paramount+"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401914256/leeds-united-chelsea",
+   "iso_et": "2026-09-09T15:15:00-04:00",
+   "date": "Wed Sep 9, 2026",
+   "short": "Wed Sep 9",
+   "time": "3:15 PM ET",
+   "tz": "EDT",
+   "gf": 6,
+   "ga": 3,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W",
+   "summary": {
+    "goals": [
+     {
+      "team": "357",
+      "min": "23'",
+      "scorer": "Tarik Muharemovic",
+      "assist": "Harry Wilson",
+      "og": false,
+      "pen": false,
+      "header": true
+     },
+     {
+      "team": "357",
+      "min": "48'",
+      "scorer": "Brenden Aaronson",
+      "assist": "Lukas Nmecha",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "53'",
+      "scorer": "Cole Palmer",
+      "assist": null,
+      "og": false,
+      "pen": true,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "55'",
+      "scorer": "Cole Palmer",
+      "assist": "Morgan Rogers",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "60'",
+      "scorer": "Pedro Neto",
+      "assist": "Morgan Rogers",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "65'",
+      "scorer": "Danny Welbeck",
+      "assist": "Morgan Rogers",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "357",
+      "min": "75'",
+      "scorer": "Dominic Calvert-Lewin",
+      "assist": "Noah Okafor",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "80'",
+      "scorer": "Valentín Barco",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "90'+4'",
+      "scorer": "Danny Welbeck",
+      "assist": "Valentín Barco",
+      "og": false,
+      "pen": false,
+      "header": true
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "49.3",
+      "totalShots": "16",
+      "shotsOnTarget": "8"
+     },
+     "357": {
+      "possessionPct": "50.7",
+      "totalShots": "18",
+      "shotsOnTarget": "6"
+     }
+    },
+    "attendance": 35696,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 6,
+     "357": 3
+    }
+   },
+   "opp_rank": 5
+  },
+  {
+   "id": "401879283",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "306",
+   "opp_name": "Hull City",
+   "opp_abbr": "HUL",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "USA Net",
+    "Universo"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879283/hull-city-chelsea",
+   "iso_et": "2026-09-12T10:00:00-04:00",
+   "date": "Sat Sep 12, 2026",
+   "short": "Sat Sep 12",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "gf": 2,
+   "ga": 2,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "D",
+   "summary": {
+    "goals": [
+     {
+      "team": "363",
+      "min": "7'",
+      "scorer": "Morgan Rogers",
+      "assist": "João Pedro",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "306",
+      "min": "28'",
+      "scorer": "Mohamed Belloumi",
+      "assist": "Ryan Giles",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "306",
+      "min": "34'",
+      "scorer": "Mohamed Belloumi",
+      "assist": "Oliver McBurnie",
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "363",
+      "min": "66'",
+      "scorer": "João Pedro",
+      "assist": "Cole Palmer",
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "363": {
+      "possessionPct": "67.8",
+      "totalShots": "12",
+      "shotsOnTarget": "7"
+     },
+     "306": {
+      "possessionPct": "32.2",
+      "totalShots": "13",
+      "shotsOnTarget": "5"
+     }
+    },
+    "attendance": 39352,
+    "venue": "Stamford Bridge",
+    "score": {
+     "363": 2,
+     "306": 2
+    }
+   },
+   "opp_rank": 8
+  },
+  {
+   "id": "401879275",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "337",
+   "opp_name": "Brentford",
+   "opp_abbr": "BRE",
+   "venue": "Gtech Community Stadium",
+   "city": "Brentford",
+   "tv": [
+    "USA Net"
+   ],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879275/chelsea-brentford",
+   "iso_et": "2026-09-18T15:00:00-04:00",
+   "date": "Fri Sep 18, 2026",
+   "short": "Fri Sep 18",
+   "time": "3:00 PM ET",
+   "tz": "EDT",
+   "gf": 0,
+   "ga": 3,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "L",
+   "summary": {
+    "goals": [
+     {
+      "team": "337",
+      "min": "61'",
+      "scorer": "Jaidon Anthony",
+      "assist": "Jannik Schuster",
+      "og": false,
+      "pen": false,
+      "header": true
+     },
+     {
+      "team": "337",
+      "min": "83'",
+      "scorer": "Igor Thiago",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     },
+     {
+      "team": "337",
+      "min": "90'+4'",
+      "scorer": "Fábio Carvalho",
+      "assist": null,
+      "og": false,
+      "pen": false,
+      "header": false
+     }
+    ],
+    "reds": [],
+    "box": {
+     "337": {
+      "possessionPct": "40.6",
+      "totalShots": "13",
+      "shotsOnTarget": "6"
+     },
+     "363": {
+      "possessionPct": "59.4",
+      "totalShots": "12",
+      "shotsOnTarget": "2"
+     }
+    },
+    "attendance": 17193,
+    "venue": "Gtech Community Stadium",
+    "score": {
+     "337": 3,
+     "363": 0
+    }
+   },
+   "opp_rank": 4
+  }
+ ],
+ "friendlies": [
+  {
+   "id": "401871494",
+   "comp": "Club Friendly",
+   "comp_slug": "club.friendly",
+   "stage": "2026 Club Friendly",
+   "home": true,
+   "opp": "111",
+   "opp_name": "Juventus",
+   "opp_abbr": "JUV",
+   "venue": "Kai Tak Sports Park",
+   "city": "Mongkok, Kowloon",
+   "tv": [],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401871494/juventus-chelsea",
+   "iso_et": "2026-08-05T07:30:00-04:00",
+   "date": "Wed Aug 5, 2026",
+   "short": "Wed Aug 5",
+   "time": "7:30 AM ET",
+   "tz": "EDT",
+   "gf": 0,
+   "ga": 1,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "L"
+  },
+  {
+   "id": "401871495",
+   "comp": "Club Friendly",
+   "comp_slug": "club.friendly",
+   "stage": "2026 Club Friendly",
+   "home": true,
+   "opp": "103",
+   "opp_name": "AC Milan",
+   "opp_abbr": "MIL",
+   "venue": "Gelora Bung Karno Stadium",
+   "city": "Jakarta",
+   "tv": [],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401871495/ac-milan-chelsea",
+   "iso_et": "2026-08-08T08:00:00-04:00",
+   "date": "Sat Aug 8, 2026",
+   "short": "Sat Aug 8",
+   "time": "8:00 AM ET",
+   "tz": "EDT",
+   "gf": 3,
+   "ga": 0,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W"
+  },
+  {
+   "id": "401886559",
+   "comp": "Club Friendly",
+   "comp_slug": "club.friendly",
+   "stage": "2026 Club Friendly",
+   "home": false,
+   "opp": "17689",
+   "opp_name": "Johor Darul Ta'zim",
+   "opp_abbr": "JDT",
+   "venue": "Sultan Ibrahim Stadium",
+   "city": "Iskandar Puteri, Johor",
+   "tv": [],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401886559/chelsea-johor-darul-tazim",
+   "iso_et": "2026-08-09T08:00:00-04:00",
+   "date": "Sun Aug 9, 2026",
+   "short": "Sun Aug 9",
+   "time": "8:00 AM ET",
+   "tz": "EDT",
+   "gf": 3,
+   "ga": 3,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "D"
+  },
+  {
+   "id": "401900324",
+   "comp": "Club Friendly",
+   "comp_slug": "club.friendly",
+   "stage": "2026 Club Friendly",
+   "home": true,
+   "opp": "89",
+   "opp_name": "Real Sociedad",
+   "opp_abbr": "RSO",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_FULL_TIME",
+   "completed": true,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401900324/real-sociedad-chelsea",
+   "iso_et": "2026-08-15T09:00:00-04:00",
+   "date": "Sat Aug 15, 2026",
+   "short": "Sat Aug 15",
+   "time": "9:00 AM ET",
+   "tz": "EDT",
+   "gf": 3,
+   "ga": 1,
+   "so_gf": null,
+   "so_ga": null,
+   "res": "W"
+  }
+ ],
+ "fixtures": [
+  {
+   "id": "401878775",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "349",
+   "opp_name": "AFC Bournemouth",
+   "opp_abbr": "BOU",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "Peacock"
+   ],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878775/afc-bournemouth-chelsea",
+   "iso_et": "2026-10-10T10:00:00-04:00",
+   "date": "Sat Oct 10, 2026",
+   "short": "Sat Oct 10",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 17
+  },
+  {
+   "id": "401878771",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "368",
+   "opp_name": "Everton",
+   "opp_abbr": "EVE",
+   "venue": "Hill Dickinson Stadium",
+   "city": "Liverpool",
+   "tv": [
+    "USA Net",
+    "Universo"
+   ],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878771/chelsea-everton",
+   "iso_et": "2026-10-17T07:30:00-04:00",
+   "date": "Sat Oct 17, 2026",
+   "short": "Sat Oct 17",
+   "time": "7:30 AM ET",
+   "tz": "EDT",
+   "opp_rank": 7
+  },
+  {
+   "id": "401878767",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "367",
+   "opp_name": "Tottenham Hotspur",
+   "opp_abbr": "TOT",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878767/tottenham-hotspur-chelsea",
+   "iso_et": "2026-10-24T12:30:00-04:00",
+   "date": "Sat Oct 24, 2026",
+   "short": "Sat Oct 24",
+   "time": "12:30 PM ET",
+   "tz": "EDT",
+   "opp_rank": 20
+  },
+  {
+   "id": "401921842",
+   "comp": "Carabao Cup",
+   "comp_slug": "eng.league_cup",
+   "stage": "Fourth Round",
+   "home": false,
+   "opp": "364",
+   "opp_name": "Liverpool",
+   "opp_abbr": "LIV",
+   "venue": "Anfield",
+   "city": "Liverpool",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401921842/chelsea-liverpool",
+   "iso_et": "2026-10-28T16:00:00-04:00",
+   "date": "Wed Oct 28, 2026",
+   "short": "Wed Oct 28",
+   "time": "4:00 PM ET",
+   "tz": "EDT",
+   "opp_rank": 6
+  },
+  {
+   "id": "401879248",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "360",
+   "opp_name": "Manchester United",
+   "opp_abbr": "MAN",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879248/manchester-united-chelsea",
+   "iso_et": "2026-10-31T08:30:00-04:00",
+   "date": "Sat Oct 31, 2026",
+   "short": "Sat Oct 31",
+   "time": "8:30 AM ET",
+   "tz": "EDT",
+   "opp_rank": 12
+  },
+  {
+   "id": "401879239",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "366",
+   "opp_name": "Sunderland",
+   "opp_abbr": "SUN",
+   "venue": "Stadium of Light",
+   "city": "Sunderland",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879239/chelsea-sunderland",
+   "iso_et": "2026-11-08T09:00:00-05:00",
+   "date": "Sun Nov 8, 2026",
+   "short": "Sun Nov 8",
+   "time": "9:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 14
+  },
+  {
+   "id": "401879236",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "357",
+   "opp_name": "Leeds United",
+   "opp_abbr": "LEE",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879236/leeds-united-chelsea",
+   "iso_et": "2026-11-21T10:00:00-05:00",
+   "date": "Sat Nov 21, 2026",
+   "short": "Sat Nov 21",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 5
+  },
+  {
+   "id": "401879225",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "393",
+   "opp_name": "Nottingham Forest",
+   "opp_abbr": "NFO",
+   "venue": "The City Ground",
+   "city": "Nottingham",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879225/chelsea-nottingham-forest",
+   "iso_et": "2026-11-27T15:00:00-05:00",
+   "date": "Fri Nov 27, 2026",
+   "short": "Fri Nov 27",
+   "time": "3:00 PM ET",
+   "tz": "EST",
+   "opp_rank": 13
+  },
+  {
+   "id": "401879222",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "384",
+   "opp_name": "Crystal Palace",
+   "opp_abbr": "CRY",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879222/crystal-palace-chelsea",
+   "iso_et": "2026-12-02T15:00:00-05:00",
+   "date": "Wed Dec 2, 2026",
+   "short": "Wed Dec 2",
+   "time": "3:00 PM ET",
+   "tz": "EST",
+   "opp_rank": 15
+  },
+  {
+   "id": "401879213",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "364",
+   "opp_name": "Liverpool",
+   "opp_abbr": "LIV",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879213/liverpool-chelsea",
+   "iso_et": "2026-12-05T10:00:00-05:00",
+   "date": "Sat Dec 5, 2026",
+   "short": "Sat Dec 5",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 6
+  },
+  {
+   "id": "401878742",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "382",
+   "opp_name": "Manchester City",
+   "opp_abbr": "MNC",
+   "venue": "Etihad Stadium",
+   "city": "Manchester",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878742/chelsea-manchester-city",
+   "iso_et": "2026-12-12T10:00:00-05:00",
+   "date": "Sat Dec 12, 2026",
+   "short": "Sat Dec 12",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 1
+  },
+  {
+   "id": "401879202",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "362",
+   "opp_name": "Aston Villa",
+   "opp_abbr": "AVL",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879202/aston-villa-chelsea",
+   "iso_et": "2026-12-19T10:00:00-05:00",
+   "date": "Sat Dec 19, 2026",
+   "short": "Sat Dec 19",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 16
+  },
+  {
+   "id": "401878736",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "388",
+   "opp_name": "Coventry City",
+   "opp_abbr": "COV",
+   "venue": "Coventry Building Society Arena",
+   "city": "Coventry",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878736/chelsea-coventry-city",
+   "iso_et": "2026-12-27T09:00:00-05:00",
+   "date": "Sun Dec 27, 2026",
+   "short": "Sun Dec 27",
+   "time": "9:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 18
+  },
+  {
+   "id": "401879189",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "373",
+   "opp_name": "Ipswich Town",
+   "opp_abbr": "IPS",
+   "venue": "Portman Road",
+   "city": "Ipswich",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879189/chelsea-ipswich-town",
+   "iso_et": "2026-12-30T15:15:00-05:00",
+   "date": "Wed Dec 30, 2026",
+   "short": "Wed Dec 30",
+   "time": "3:15 PM ET",
+   "tz": "EST",
+   "opp_rank": 11
+  },
+  {
+   "id": "401879183",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "361",
+   "opp_name": "Newcastle United",
+   "opp_abbr": "NEW",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879183/newcastle-united-chelsea",
+   "iso_et": "2027-01-03T09:00:00-05:00",
+   "date": "Sun Jan 3, 2027",
+   "short": "Sun Jan 3",
+   "time": "9:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 9
+  },
+  {
+   "id": "401879175",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "384",
+   "opp_name": "Crystal Palace",
+   "opp_abbr": "CRY",
+   "venue": "Selhurst Park",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879175/chelsea-crystal-palace",
+   "iso_et": "2027-01-06T14:30:00-05:00",
+   "date": "Wed Jan 6, 2027",
+   "short": "Wed Jan 6",
+   "time": "2:30 PM ET",
+   "tz": "EST",
+   "opp_rank": 15
+  },
+  {
+   "id": "401879167",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "366",
+   "opp_name": "Sunderland",
+   "opp_abbr": "SUN",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879167/sunderland-chelsea",
+   "iso_et": "2027-01-16T10:00:00-05:00",
+   "date": "Sat Jan 16, 2027",
+   "short": "Sat Jan 16",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 14
+  },
+  {
+   "id": "401879160",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "357",
+   "opp_name": "Leeds United",
+   "opp_abbr": "LEE",
+   "venue": "Elland Road",
+   "city": "Leeds",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879160/chelsea-leeds-united",
+   "iso_et": "2027-01-23T10:00:00-05:00",
+   "date": "Sat Jan 23, 2027",
+   "short": "Sat Jan 23",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 5
+  },
+  {
+   "id": "401878714",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "393",
+   "opp_name": "Nottingham Forest",
+   "opp_abbr": "NFO",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878714/nottingham-forest-chelsea",
+   "iso_et": "2027-01-30T10:00:00-05:00",
+   "date": "Sat Jan 30, 2027",
+   "short": "Sat Jan 30",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 13
+  },
+  {
+   "id": "401879148",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "360",
+   "opp_name": "Manchester United",
+   "opp_abbr": "MAN",
+   "venue": "Old Trafford",
+   "city": "Manchester",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879148/chelsea-manchester-united",
+   "iso_et": "2027-02-06T10:00:00-05:00",
+   "date": "Sat Feb 6, 2027",
+   "short": "Sat Feb 6",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 12
+  },
+  {
+   "id": "401879141",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "361",
+   "opp_name": "Newcastle United",
+   "opp_abbr": "NEW",
+   "venue": "St. James' Park",
+   "city": "Newcastle-upon-Tyne",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879141/chelsea-newcastle-united",
+   "iso_et": "2027-02-10T15:00:00-05:00",
+   "date": "Wed Feb 10, 2027",
+   "short": "Wed Feb 10",
+   "time": "3:00 PM ET",
+   "tz": "EST",
+   "opp_rank": 9
+  },
+  {
+   "id": "401878704",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "373",
+   "opp_name": "Ipswich Town",
+   "opp_abbr": "IPS",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878704/ipswich-town-chelsea",
+   "iso_et": "2027-02-20T10:00:00-05:00",
+   "date": "Sat Feb 20, 2027",
+   "short": "Sat Feb 20",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 11
+  },
+  {
+   "id": "401879133",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "362",
+   "opp_name": "Aston Villa",
+   "opp_abbr": "AVL",
+   "venue": "Villa Park",
+   "city": "Birmingham",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879133/chelsea-aston-villa",
+   "iso_et": "2027-02-27T10:00:00-05:00",
+   "date": "Sat Feb 27, 2027",
+   "short": "Sat Feb 27",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 16
+  },
+  {
+   "id": "401879126",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "388",
+   "opp_name": "Coventry City",
+   "opp_abbr": "COV",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879126/coventry-city-chelsea",
+   "iso_et": "2027-03-03T15:00:00-05:00",
+   "date": "Wed Mar 3, 2027",
+   "short": "Wed Mar 3",
+   "time": "3:00 PM ET",
+   "tz": "EST",
+   "opp_rank": 18
+  },
+  {
+   "id": "401878693",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "359",
+   "opp_name": "Arsenal",
+   "opp_abbr": "ARS",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878693/arsenal-chelsea",
+   "iso_et": "2027-03-13T10:00:00-05:00",
+   "date": "Sat Mar 13, 2027",
+   "short": "Sat Mar 13",
+   "time": "10:00 AM ET",
+   "tz": "EST",
+   "opp_rank": 2
+  },
+  {
+   "id": "401879110",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "306",
+   "opp_name": "Hull City",
+   "opp_abbr": "HUL",
+   "venue": "The MKM Stadium",
+   "city": "Hull",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879110/chelsea-hull-city",
+   "iso_et": "2027-03-20T11:00:00-04:00",
+   "date": "Sat Mar 20, 2027",
+   "short": "Sat Mar 20",
+   "time": "11:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 8
+  },
+  {
+   "id": "401879104",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "370",
+   "opp_name": "Fulham",
+   "opp_abbr": "FUL",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879104/fulham-chelsea",
+   "iso_et": "2027-04-10T10:00:00-04:00",
+   "date": "Sat Apr 10, 2027",
+   "short": "Sat Apr 10",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 19
+  },
+  {
+   "id": "401878685",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "331",
+   "opp_name": "Brighton & Hove Albion",
+   "opp_abbr": "BHA",
+   "venue": "American Express Stadium",
+   "city": "Falmer",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878685/chelsea-brighton-hove-albion",
+   "iso_et": "2027-04-17T10:00:00-04:00",
+   "date": "Sat Apr 17, 2027",
+   "short": "Sat Apr 17",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 3
+  },
+  {
+   "id": "401879094",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "382",
+   "opp_name": "Manchester City",
+   "opp_abbr": "MNC",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879094/manchester-city-chelsea",
+   "iso_et": "2027-04-24T10:00:00-04:00",
+   "date": "Sat Apr 24, 2027",
+   "short": "Sat Apr 24",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 1
+  },
+  {
+   "id": "401878674",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "364",
+   "opp_name": "Liverpool",
+   "opp_abbr": "LIV",
+   "venue": "Anfield",
+   "city": "Liverpool",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878674/chelsea-liverpool",
+   "iso_et": "2027-05-01T10:00:00-04:00",
+   "date": "Sat May 1, 2027",
+   "short": "Sat May 1",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 6
+  },
+  {
+   "id": "401878666",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "367",
+   "opp_name": "Tottenham Hotspur",
+   "opp_abbr": "TOT",
+   "venue": "Tottenham Hotspur Stadium",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878666/chelsea-tottenham-hotspur",
+   "iso_et": "2027-05-08T10:00:00-04:00",
+   "date": "Sat May 8, 2027",
+   "short": "Sat May 8",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 20
+  },
+  {
+   "id": "401879078",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "368",
+   "opp_name": "Everton",
+   "opp_abbr": "EVE",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879078/everton-chelsea",
+   "iso_et": "2027-05-15T10:00:00-04:00",
+   "date": "Sat May 15, 2027",
+   "short": "Sat May 15",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 7
+  },
+  {
+   "id": "401879072",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": false,
+   "opp": "349",
+   "opp_name": "AFC Bournemouth",
+   "opp_abbr": "BOU",
+   "venue": "Vitality Stadium",
+   "city": "Bournemouth",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879072/chelsea-afc-bournemouth",
+   "iso_et": "2027-05-23T10:00:00-04:00",
+   "date": "Sun May 23, 2027",
+   "short": "Sun May 23",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 17
+  },
+  {
+   "id": "401879063",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "337",
+   "opp_name": "Brentford",
+   "opp_abbr": "BRE",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401879063/brentford-chelsea",
+   "iso_et": "2027-05-30T11:00:00-04:00",
+   "date": "Sun May 30, 2027",
+   "short": "Sun May 30",
+   "time": "11:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 4
+  }
+ ],
+ "scorers": [
+  {
+   "name": "Cole Palmer",
+   "goals": 4,
+   "pl": 2,
+   "cup": 2,
+   "pens": 1,
+   "assists": 2
+  },
+  {
+   "name": "Morgan Rogers",
+   "goals": 3,
+   "pl": 3,
+   "cup": 0,
+   "pens": 0,
+   "assists": 4
+  },
+  {
+   "name": "João Pedro",
+   "goals": 3,
+   "pl": 3,
+   "cup": 0,
+   "pens": 0,
+   "assists": 3
+  },
+  {
+   "name": "Danny Welbeck",
+   "goals": 3,
+   "pl": 0,
+   "cup": 3,
+   "pens": 0,
+   "assists": 0
+  },
+  {
+   "name": "Pedro Neto",
+   "goals": 2,
+   "pl": 1,
+   "cup": 1,
+   "pens": 0,
+   "assists": 0
+  },
+  {
+   "name": "Valentín Barco",
+   "goals": 1,
+   "pl": 0,
+   "cup": 1,
+   "pens": 0,
+   "assists": 1
+  },
+  {
+   "name": "Romeo Lavia",
+   "goals": 1,
+   "pl": 1,
+   "cup": 0,
+   "pens": 0,
+   "assists": 0
+  },
+  {
+   "name": "Jorrel Hato",
+   "goals": 0,
+   "pl": 0,
+   "cup": 0,
+   "pens": 0,
+   "assists": 2
+  },
+  {
+   "name": "Malo Gusto",
+   "goals": 0,
+   "pl": 0,
+   "cup": 0,
+   "pens": 0,
+   "assists": 1
+  },
+  {
+   "name": "Maxence Lacroix",
+   "goals": 0,
+   "pl": 0,
+   "cup": 0,
+   "pens": 0,
+   "assists": 1
+  }
+ ],
+ "og_for": 1,
+ "headline": {
+  "rank": 10,
+  "pts": 7,
+  "record": "2-1-2",
+  "gd": -2,
+  "gp": 5,
+  "gap_top": 8,
+  "top_name": "Manchester City",
+  "gap_top4": 2,
+  "top4_name": "Brentford",
+  "above_drop": 4,
+  "drop_name": "Coventry City",
+  "drop_rank": 18,
+  "form_pl": "WWLDL",
+  "form_all": "WWWLWDL",
+  "pts_2025_same_point": 8,
+  "next": {
+   "id": "401878775",
+   "comp": "Premier League",
+   "comp_slug": "eng.1",
+   "stage": "2026-27 English Premier League",
+   "home": true,
+   "opp": "349",
+   "opp_name": "AFC Bournemouth",
+   "opp_abbr": "BOU",
+   "venue": "Stamford Bridge",
+   "city": "London",
+   "tv": [
+    "Peacock"
+   ],
+   "status": "STATUS_SCHEDULED",
+   "completed": false,
+   "time_valid": true,
+   "neutral": false,
+   "url": "https://www.espn.com/soccer/match/_/gameId/401878775/afc-bournemouth-chelsea",
+   "iso_et": "2026-10-10T10:00:00-04:00",
+   "date": "Sat Oct 10, 2026",
+   "short": "Sat Oct 10",
+   "time": "10:00 AM ET",
+   "tz": "EDT",
+   "opp_rank": 17
+  },
+  "pl_left": 33,
+  "last_pl_date": "Fri Sep 18, 2026"
+ }
+}

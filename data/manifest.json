@@ -1,0 +1,149 @@
+{
+  "fetched_by": "fetch.py (curl)",
+  "sources": {
+    "standings": {
+      "url": "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings",
+      "file": "data/raw/standings.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 68780,
+      "sha256": "33e711c0b1844cca05c201662a1a4085427f64876c3bea550c29b1718dd2b009",
+      "fetched_at": "2026-10-07T19:47:58-04:00"
+    },
+    "standings_2025": {
+      "url": "https://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings?season=2025",
+      "file": "data/raw/standings_2025.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 69454,
+      "sha256": "b537238500b66cc65e3eae7e57ed9502c4ac7f1572b226afa0142e5723356fa3",
+      "fetched_at": "2026-10-07T19:47:58-04:00"
+    },
+    "pl_results": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule",
+      "file": "data/raw/pl_results.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 47230,
+      "sha256": "abd5a3340a69ce8194d62750df2e40bda5f22f5d5113a7379208cec3a6139784",
+      "fetched_at": "2026-10-07T19:47:58-04:00"
+    },
+    "pl_fixtures": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule?fixture=true",
+      "file": "data/raw/pl_fixtures.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 276028,
+      "sha256": "d56edf07f82c20c674158603e63d9f0aa67142cf460fe1da1a9577e4e8636f49",
+      "fetched_at": "2026-10-07T19:47:59-04:00"
+    },
+    "all_results": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/363/schedule",
+      "file": "data/raw/all_results.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 95404,
+      "sha256": "17886cd367726b9d2105dbf74cbb1f4cb647eab36f634a0e1f0d7ea4d3e4c42b",
+      "fetched_at": "2026-10-07T19:47:59-04:00"
+    },
+    "all_fixtures": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/all/teams/363/schedule?fixture=true",
+      "file": "data/raw/all_fixtures.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 288787,
+      "sha256": "96f26fe73ad92635ca78a04ba613d3d1ecdf389db0f28b346b3b157007ef4b0a",
+      "fetched_at": "2026-10-07T19:47:59-04:00"
+    },
+    "scoreboard_2026": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=2026&limit=1000",
+      "file": "data/raw/scoreboard_2026.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 3705336,
+      "sha256": "8cda21814a92a7494b8850ce02876820bbd57156f3c810963457496267154448",
+      "fetched_at": "2026-10-07T19:47:59-04:00"
+    },
+    "scoreboard_2025": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=2025&limit=1000",
+      "file": "data/raw/scoreboard_2025.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 4049730,
+      "sha256": "97a86f7124f236c0c344cf35e1b5a49f27b33f885d71a80824cdb8e037ed63ac",
+      "fetched_at": "2026-10-07T19:48:01-04:00"
+    },
+    "team": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363",
+      "file": "data/raw/team.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 21047,
+      "sha256": "f7804e31f52ae2a7b54f1e13aefb52df48f7a20696d30d88cbd6582cdb1a72cc",
+      "fetched_at": "2026-10-07T19:48:01-04:00"
+    },
+    "summary_401879275": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879275",
+      "file": "data/raw/summary_401879275.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 411389,
+      "sha256": "580617ac5999714e3174d874fed35ca8fa405ae83f549a9b5fd4fa5627d27535",
+      "fetched_at": "2026-10-07T19:48:01-04:00"
+    },
+    "summary_401879283": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879283",
+      "file": "data/raw/summary_401879283.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 433271,
+      "sha256": "b78f2748a10a09713f2226a9f1f7b4adb7937e96c7e62cd389d8f97c45ab7533",
+      "fetched_at": "2026-10-07T19:48:02-04:00"
+    },
+    "summary_401914256": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/summary?event=401914256",
+      "file": "data/raw/summary_401914256.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 376100,
+      "sha256": "a82a8e17c8114d7b8c0047e56e4e6cec45dbfa000f6e1fb322519638dc796fbf",
+      "fetched_at": "2026-10-07T19:48:02-04:00"
+    },
+    "summary_401879292": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879292",
+      "file": "data/raw/summary_401879292.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 451639,
+      "sha256": "7ec1ce473c4fecf8531d057a300ae36ec6e1e480e64ed6cff0250a40360d16a1",
+      "fetched_at": "2026-10-07T19:48:02-04:00"
+    },
+    "summary_401879317": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879317",
+      "file": "data/raw/summary_401879317.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 442628,
+      "sha256": "30f71e62c1d29ee17a5cbeaeaecbb1ba8d6d7b6ac48af585cec319a7246da249",
+      "fetched_at": "2026-10-07T19:48:03-04:00"
+    },
+    "summary_401908127": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.league_cup/summary?event=401908127",
+      "file": "data/raw/summary_401908127.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 366212,
+      "sha256": "b813659389584c965c038995284e3430e14837db267d6089c9cb11f0d9a79b9f",
+      "fetched_at": "2026-10-07T19:48:03-04:00"
+    },
+    "summary_401879318": {
+      "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879318",
+      "file": "data/raw/summary_401879318.json",
+      "http": "200",
+      "ok": true,
+      "bytes": 417082,
+      "sha256": "dcfe1d2dede4811f5034a41cfce36b33a8e1de8a30ebd5d44409fe0d91370d2f",
+      "fetched_at": "2026-10-07T19:48:03-04:00"
+    }
+  }
+}
