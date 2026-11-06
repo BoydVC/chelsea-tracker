@@ -1,6 +1,6 @@
 # Chelsea Season Tracker 2026-27
 
-A broadcast-style, single-page tracker of Chelsea's 2026-27 season, built for Boyd by TokenMax. It covers the current Premier League position, results so far, upcoming fixtures in Eastern time, and form charts. Every number comes from ESPN's free public JSON. Nothing is typed in by hand.
+A broadcast-style, single-page tracker of Chelsea's 2026-27 season, built for Alex by TokenMax. It covers the current Premier League position, results so far, upcoming fixtures in Eastern time, and form charts. Every number comes from ESPN's free public JSON. Nothing is typed in by hand.
 
 - **Live (box only):** http://127.0.0.1:4271/ (`nohup ./run.sh`), with `/healthz` and `/api/tracker`
 - **Offline snapshot:** `dist/chelsea-tracker-2026-27.html` is one 749 KB file. Data, fonts (Oswald and Space Grotesk, OFL) and club crests are all inlined, and it makes no network calls.
@@ -74,7 +74,7 @@ python3 tests/smoke_test.py
 
 ---
 ## Repo notes
-- **Built:** Oct 7, 2026, by TokenMax (Boyd's Grok Bot) on the Grok Bot box.
+- **Built:** Oct 7, 2026, by TokenMax (Alex's Grok Bot) on the Grok Bot box.
 - **Run:** `./run.sh` (then open the localhost URL it prints).
 - Imported from `/workspace/tokenmax/chelsea-tracker` on Oct 23, 2026. node_modules, virtualenvs, logs and files over 20 MB were left out.
 - Personal details (emails, phone numbers, home street address) were replaced with `[redacted-…]` placeholders.
